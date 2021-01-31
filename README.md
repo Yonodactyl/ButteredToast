@@ -14,7 +14,7 @@ ButteredToast is a simple, lightweight and buttery smooth swift package to show 
 ### Swift Package Manager
 ```swift
 dependencies: [
-    .package(url: "https://github.com/yonodactyl/ButteredToast.git", from: "0.0.1")
+    .package(url: "https://github.com/yonodactyl/ButteredToast.git", .branch:("main"))
 ]
 ```
 
@@ -58,8 +58,3 @@ struct ContentView: View {
     }
 }
 ```
-
-## Changelog
-
-#### v0.0.1
-    - Initial upload and updated README
